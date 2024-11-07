@@ -1,4 +1,4 @@
-name: 'Terraform Linter Action'
+name: 'Terraform Linter'
 author: 'zombocoder'
 description: 'A GitHub Action to validate that Terraform files are formatted consistently.'
 
