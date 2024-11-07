@@ -1,0 +1,17 @@
+name: 'Terraform Linter Action'
+author: 'zombocoder'
+description: 'A GitHub Action to validate that Terraform files are formatted consistently.'
+
+inputs:
+  check:
+    description: 'Run in check mode to validate formatting without making changes.'
+    required: false
+    default: 'true'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'green'
+  color: 'red'
